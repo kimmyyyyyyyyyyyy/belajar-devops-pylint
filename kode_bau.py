@@ -1,14 +1,10 @@
-"""Modul contoh untuk latihan perbaikan kode sesuai PEP 8."""
-
-
-def proses_data(a, b, c, d, e, f):
+def proses_data(a, b, c, e, f):
     """Contoh fungsi sederhana yang menjumlahkan beberapa nilai.
 
     Args:
         a: Nilai boolean pertama.
         b: Nilai boolean kedua.
         c: Nilai yang mungkin None.
-        d: Angka tambahan.
         e: List berisi angka.
         f: Angka tambahan lainnya.
 
@@ -25,8 +21,9 @@ def proses_data(a, b, c, d, e, f):
 
 def main():
     """Fungsi utama program."""
-    proses_data(True, False, None, 1, [2], 3)
+    proses_data(True, False, None, [2], 3)
 
 
 if __name__ == "__main__":
     main()
+    
