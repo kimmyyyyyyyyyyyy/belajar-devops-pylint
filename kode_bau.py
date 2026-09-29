@@ -1,23 +1,32 @@
-import os, sys, math
+"""Modul contoh untuk latihan perbaikan kode sesuai PEP 8."""
 
-x = 10
 
-def Bad_Function_Name( A, B, C, D, E, F ):
+def proses_data(a, b, c, d, e, f):
+    """Contoh fungsi sederhana yang menjumlahkan beberapa nilai.
 
- global x
+    Args:
+        a: Nilai boolean pertama.
+        b: Nilai boolean kedua.
+        c: Nilai yang mungkin None.
+        d: Angka tambahan.
+        e: List berisi angka.
+        f: Angka tambahan lainnya.
 
- l = 1; O = 0
+    Returns:
+        Hasil penjumlahan, atau None jika syarat tidak terpenuhi.
+    """
+    if not (a and not b and c is None):
+        return None
 
- if A == True:
+    hasil = e[0] + f + 1 + 0
+    print(hasil)
+    return hasil
 
-  if B == False:
 
-   if C == None:
+def main():
+    """Fungsi utama program."""
+    proses_data(True, False, None, 1, [2], 3)
 
-    try: print(eval("A + B")); res = E[0] + F + l + O
 
-    except: pass
-
- else: return None
-
-Bad_Function_Name(True, False, None, 1, [2], 3)
+if __name__ == "__main__":
+    main()
