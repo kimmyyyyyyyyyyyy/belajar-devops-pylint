@@ -1,3 +1,6 @@
+"""Modul contoh untuk latihan perbaikan kode sesuai PEP 8."""
+
+
 def proses_data(a, b, c, e, f):
     """Contoh fungsi sederhana yang menjumlahkan beberapa nilai.
 
@@ -26,4 +29,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
